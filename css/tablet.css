@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 959px) {
   .header {
     background-color: rgba(255, 255, 255, 0);
     display: flex;
@@ -7,126 +7,6 @@
     justify-content: end;
     align-items: center;
     position: fixed;
-  }
-
-  .header-list {
-    display: none;
-  }
-
-  .menu-btn {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    display: flex;
-    height: 60px;
-    width: 60px;
-    justify-content: center;
-    align-items: center;
-    z-index: 90;
-    background-color: #3583bb00;
-  }
-
-  .menu-btn span,
-  .menu-btn span:before,
-  .menu-btn span:after {
-    content: "";
-    display: block;
-    height: 3px;
-    width: 25px;
-    border-radius: 3px;
-    background-color: #000000;
-    position: absolute;
-  }
-
-  .menu-btn span:before {
-    bottom: 8px;
-  }
-
-  .menu-btn span:after {
-    top: 8px;
-  }
-
-  #menu-btn-check:checked ~ .menu-btn span {
-    background-color: rgba(255, 255, 255, 0);
-  }
-
-  #menu-btn-check:checked ~ .menu-btn span::before {
-    bottom: 0;
-    transform: rotate(45deg);
-  }
-
-  #menu-btn-check:checked ~ .menu-btn span::after {
-    top: 0;
-    transform: rotate(-45deg);
-  }
-
-  #menu-btn-check {
-    display: none;
-  }
-
-  .menu-content {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 80;
-    background-color: #3584bb;
-  }
-
-  .menu-content ul {
-    padding: 70px 10px 0;
-  }
-
-  .menu-content ul li {
-    border-bottom: solid 1px #000000;
-    list-style: none;
-  }
-
-  .menu-content ul li a {
-    display: block;
-    width: 100%;
-    font-size: 15px;
-    box-sizing: border-box;
-    color: #000000;
-    text-decoration: none;
-    padding: 9px 15px 10px 0;
-    position: relative;
-  }
-
-  .menu-content ul li a::before {
-    content: "";
-    width: 7px;
-    height: 7px;
-    border-top: solid 2px #000000;
-    border-right: solid 2px #000000;
-    transform: rotate(45deg);
-    position: absolute;
-    right: 11px;
-    top: 16px;
-  }
-
-  .menu-content {
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 100%;
-    z-index: 80;
-    background-image: url("./images/cat2.jpg");
-    transition: all 0.5s;
-  }
-
-  #menu-btn-check:checked ~ .menu-content {
-    left: 0;
-  }
-
-  .img {
-    background-image: url("./images/cat2.jpg");
-    background-size: cover;
-    background-position: left 60%;
-    height: 50rem;
-    width: 100%;
   }
 
   .main-content {
@@ -169,14 +49,14 @@
     font-size: 2rem;
   }
 
-  .about-content-a {
+  .about-content-list {
     padding-top: 2rem;
     font-family: "DotGothic16", sans-serif;
     font-size: 1.5rem;
     width: 100%;
   }
 
-  .about-content-a:hover {
+  .about-content-list:ontouchstart {
     opacity: 1;
     height: max-content;
     width: 90%;
@@ -188,84 +68,5 @@
     color: rgb(219, 219, 208);
     text-align: center;
     height: 2.5rem;
-  }
-
-  .container {
-    display: flex;
-    width: 50%;
-  }
-
-  .slide img {
-    width: 100%;
-  }
-
-  .pokemon {
-    text-align: center;
-    margin: 1rem auto;
-    width: 100%;
-    font-size: 3rem;
-    font-family: "DotGothic16", sans-serif;
-    border-bottom: solid rgba(46, 46, 46, 0.959);
-    border-bottom-width: thin;
-  }
-
-  .slide {
-    white-space: nowrap;
-  }
-
-  .slide {
-    margin: 2rem auto;
-    white-space: nowrap;
-    height: 20rem;
-    width: 20rem;
-    overflow: hidden;
-  }
-
-  .slide img {
-    width: inherit;
-    height: inherit;
-    margin: 0;
-    padding: 0;
-    border: none;
-  }
-
-  @keyframes slide-4 {
-    0% {
-      margin-left: 0;
-    }
-    10% {
-      margin-left: -100%;
-    }
-    20% {
-      margin-left: -200%;
-    }
-    30% {
-      margin-left: -300%;
-    }
-    40% {
-      margin-left: -400%;
-    }
-    50% {
-      margin-left: -500%;
-    }
-    60% {
-      margin-left: -600%;
-    }
-    70% {
-      margin-left: -700%;
-    }
-    80% {
-      margin-left: -800%;
-    }
-    90% {
-      margin-left: -900%;
-    }
-  }
-
-  .slide > :first-child {
-    animation-name: slide-4;
-    animation-duration: 15s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
   }
 }

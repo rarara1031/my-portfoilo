@@ -48,7 +48,7 @@
   font-size: 2rem;
 }
 
-.about-content-a {
+.about-content-list {
   padding-top: 2rem;
   font-family: "DotGothic16", sans-serif;
   font-size: 1.5rem;
@@ -58,7 +58,7 @@
   width: 100%;
 }
 
-.about-content-a:hover {
+.about-content-list:hover {
   opacity: 1;
   height: max-content;
   width: 90%;
