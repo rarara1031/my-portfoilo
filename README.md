@@ -1,7 +1,7 @@
 # Clone
 
 ```rb:ターミナル/コマンドプロンプト
-$ git clone https://github.com/TakahiroT0415156/portfolio_practice.git
+git clone https://github.com/TakahiroT0415156/portfolio_practice.git
 ```
 
 # How to use
