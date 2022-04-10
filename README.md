@@ -31,7 +31,6 @@ git clone https://github.com/TakahiroT0415156/portfolio_practice.git
   <li>ターミナル/コマンドプロンプトを開きます</li>
   <li>cd ファイル名 自分のファイル名に移動</li>
   <li>git add .</li>
-  <li>git commit -m "first commit"</li>
-  <li>git remote add origin https://github.com/xxxxxxxxx/リポジトリ名.git</li>
+  <li>git commit -m "xxxx.xxxの変更"</li>
   <li>git push origin main</li>
 </ol>
